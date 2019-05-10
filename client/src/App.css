@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+Form{
+  margin-left:30%;
+  margin-right:30%;
+
+ }
+@media (max-width:500px) {
+  Form {
+    margin-left:10%;
+    margin-right:10%;
+  }
+}
+Button{
+  margin-right:10px;
+  margin-bottom:20px;
+  margin-top:10px;
+}
+
+ Input{
+  text-align:center;
+}
+
+ .header{
+  display:flex;
+  justify-content:space-between;
+}
+@media (max-width:500px) {
+  .header {
+    flex-direction:column
+  }
+}
+
+p{
+  margin-bottom:10px;
+  margin-top:10px;
+}
